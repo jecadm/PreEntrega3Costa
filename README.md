@@ -50,11 +50,11 @@ no todos los elementos del framework van a tener una estética que condice con e
 ### Estructura de la web:
 uso de etiquetas no solo para armar contenido, sino para armar los elementos que van a conformar el layout de la web, los contenedores, etc.
 
-# Repositorio en GitHub
+# 4 Repositorio en GitHub
 
 ## Consigna
 
-### 4 Utilizar Git de forma correcta para versionar el proyecto.
+###  Utilizar Git de forma correcta para versionar el proyecto.
 Hacer uso de GitHub para brindar acceso al proyecto versionado.
 
 ### Se debe entregar
