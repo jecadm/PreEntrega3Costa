@@ -15,21 +15,21 @@
     <!-- Cabesera logo , login y boton carrito -->
     <header>
         <section class="">
-            <article class="navbar bg-light sec-nav-logo">
+            <section class="navbar bg-light sec-nav-logo border-bottom">
                 <article  class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <img src="./img/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                     Etnias
                   </a>
 
-                     <!-- seccion derecha nav - login y carrito -->
+                     <!-- seccion derecha  - login y carrito -->
                     <article class="btn-group sec-nav-login offset-8">
                         <button type="button" class="btn btn-warning">
                             ACCESO
                         </button>
 
                         <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="visually-hidden">Toggle Dropdown</span>
+                            <span class="visually-hidden"></span>
                         </button>
 
                         <ul class="dropdown-menu">
@@ -40,53 +40,53 @@
                             <li><a class="dropdown-item" href="#">Ayuda link</a></li>
                         </ul>
                     </article>
-                    <button type="button" class="btn btn-warning "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16" >
+                    <button type="button" class="btn btn-warning "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16" >
                     <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
                     </svg>
                     </button>
                 </article >  
 
-            </article>
-              
-            
-            
-           
+            </section>
+
         </section>
     </header>
     <!-- Barra de navegacion con buscador -->
     <section>
-        <article class="d-flex collapse" id="navbarToggleExternalContent">
-            
-            <ul class="nav nav-tabs p-1">
-                
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>              
-            </article>
+
+      <nav class="navbar navbar-expand-lg bg-light ">
+        <section class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <section class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto sm-1 sm-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </section>
+        </section>
+      </nav>
+
+
+        
         
     </section>
     <!-- Imagen de section nav -->
     <section>
 
-        <section id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <section id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
             <section class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -94,21 +94,21 @@
             </section>
             <section class="carousel-inner">
               <section class="carousel-item active">
-                <img src="./img/IMG_20210310_160259-1.jpg" class="d-block w-100" alt="...">
+                <img src="./img/IMG_20210310_160259-1.jpg" class="d-block w-100" alt="img1">
                 <section class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </section>
               </section>
               <section class="carousel-item">
-                <img src="./img/IMG_20210310_160259-0.jpg" class="d-block w-100" alt="...">
+                <img src="./img/IMG_20210310_160259-0.jpg" class="d-block w-100" alt="img0">
                 <section class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </section>
               </section>
               <section class="carousel-item">
-                <img src="./img/IMG_20210310_160259-2.jpg" class="d-block w-100" alt="...">
+                <img src="./img/IMG_20210310_160259-2.jpg" class="d-block w-100" alt="img2">
                 <section class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
