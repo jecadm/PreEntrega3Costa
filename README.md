@@ -30,7 +30,7 @@ Agregar elementos HTML según la necesidad de armar contenedores o elementos web
   Maquetar dos páginas de tu sitio web. Para esto se puede usar bootstrap o Grids + Flexbox. Las                             estructuras deberán maquetar a la web en base al framework elegido, haciendo usos de clases utilitarias                     para armar grillas, elementos web y estilos propios del framework, además del HTML de contenido.
 
 ### Páginas: 
-todas las páginas deben tener el contenido estructurado y el estilo linkeado. Agregar las diferentes librerías de            JavaScript y CSS pertinentes al framework.
+todas las páginas deben tener el contenido estructurado y el estilo linkeado. Agregar las diferentes librerías de   JavaScript y CSS pertinentes al framework.
 
 #  3 Estilo avanzado de la web
 
