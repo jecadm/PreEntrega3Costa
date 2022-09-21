@@ -1,8 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 
-
+/* Fuentes del sitio */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* Tamaño para el Menu */
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+/* Tamaño para el Menu */
+
+
+/* Titulo header */
 .tipografiaT{
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -12,6 +37,26 @@
     
 }
 
+
 .tipografiaBO{
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Fuentes del sitio */
+
+.cuadradito{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}
+
+.transMenu{
+    
+    transition: width 1s;
+    width: 300px;
+    background: lightslategray transparent 50%;
+}
+.rotateMenu{
+    transform: rotate3d(15deg);
+    cursor: pointer;
 }
