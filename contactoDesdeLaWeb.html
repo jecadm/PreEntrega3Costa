@@ -127,50 +127,79 @@
   <!-- Imagen de section carrusel flayer-->
   <section data-aos="fade-up" class="container">
 
-    <section id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
-      <section class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1">
-        </button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
-        </button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
-        </button>
+    <section class=" container formconsulta centrar ">
+
+      <section>
+          <h1 id="contacto tipografiaT">CONTACTO</h1>
       </section>
-      <section class="carousel-inner">
-        <section class="carousel-item active">
-          <img src="./img/IMG_20210310_160259-01.jpg" class="d-block w-100 " alt="img1">
-          <section class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </section>
-        </section>
-        <section class="carousel-item">
-          <img src="./img/IMG_20210310_160259-00.jpg" class="d-block w-100" alt="img0">
-          <section class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </section>
-        </section>
-        <section class="carousel-item">
-          <img src="./img/IMG_20210310_160259-02.jpg" class="d-block w-100" alt="img2">
-          <section class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </section>
-        </section>
+      <section>
+          <form action="https://formspree.io/f/mwkyeeao" method="post" class="">
+              <section class="formconsulta center">
+
+                  <section class="form-row ">
+                      <section class="col-sl-10 mb-3  ">
+                          <label for="idNombre">NOMBRE</label>
+                          <section>
+                              <input name="Nombre" type="text" class="form-control is-valid centrar" id="idNombre" value="" required="" placeholder="Ingrese aquí su nombre">
+                          </section>
+                          <section class="valid-feedback"> </section>
+
+
+                      <section class="col-sl-4 mb-3 ">
+                          <label for="idCorreo">CORREO</label>
+                          <section class="input-group">
+                              <section class="input-group-prepend">
+                                  <span class="input-group-text" id="idCorreo">@</span>
+                              </section>
+                              <input name="Email" type="email" class="form-control is-valid centrar" id="idCorreo" value="" required="" placeholder="Ingrese aquí su correo">
+                              <section class="valid-feedback">
+
+                              </section>
+                          </section>
+                      </section>
+
+                      <section class="col-sl-4 mb-3 ">
+                          <label for="idTelefono">TELEFONO</label>
+                          <input name="tnumber" type="number" class="form-control is-valid centrar" id="idTelefono" required="" value="" placeholder="+549-341-456554">
+                          <section class="valid-feedback">
+
+
+                          </section>
+
+                      </section>
+                      <section>
+                          <section class="col-sl-4 mb-3 ">
+                              <label for="exampleFormControlTextarea1"> Consulta</label>
+                              <input name="TxConsulta" type="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3">
+                          </section>
+                      </section>
+                      <section class="col-sl-4 mb-3 ">
+                          <section class="form-check">
+                              <input name="check" class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required="">
+                              <label class="form-check-label" for="invalidCheck3">
+                                  <p>Acepto enviar mi información para que me contacten</p>
+                              </label>
+                              <section class="invalid-feedback">
+                                <p> Debes estar de acuerdo antes de enviar. </p>
+                              </section>
+                          </section>
+                      </section>
+                      <section>
+                          <button class="btn btn-primary textC1 btn-dark " type="submit">Enviar</button>
+                      </section>
+                  </section>
+              </section>
+          </form>
       </section>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </section>
+
+
+  </section>
+
+
+
+
+
+    
 
   </section>
   <!-- Imagen de section carrusel flayer-->
@@ -371,7 +400,7 @@
             <!-- Links -->
             <h5 class="text-uppercase">Información</h5>
             <ul class="list-unstyled">
-              <li> <a href="#!">Producción </div></a></li>
+              <li> <a href="#!">Producción </a></li>
               <li> <a href="#!">Donde comprar</a> </li>
               <li> <a href="#!">Calidad</a> </li>
               <li> <a href="#!">Medio ambiente</a> </li>
@@ -382,7 +411,7 @@
             <!-- Links -->
             <h5 class="text-uppercase">Contacto</h5>
             <ul class="list-unstyled">
-              <li> <a href="./contactoDesdeLaWeb.html">Contacto desde la web</a> </li>
+              <li> <a href="#!">Contacto desde la web</a> </li>
               <li> <a href="#!">Ubicación</a> </li>
               <li> <a href="#!">Socios</a> </li>
               <li> <a href="#!">341-5403540</a></li>
@@ -398,9 +427,9 @@
       <!-- Footer Links -->
 
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <section class="footer-copyright text-center py-3">© 2022 Copyright:
         <a href="/"> <span>Jeronimo Costa</span>- Desarrollador web </a>
-      </div>
+      </section>
       <!-- Copyright -->
 
     </footer>
