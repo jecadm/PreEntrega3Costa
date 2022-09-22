@@ -31,7 +31,7 @@
    <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="fondoG">
+<body class="fondoG ">
   <!-- Cabesera logo , login y boton carrito -->
   <header class="fondoG">
     <section>
@@ -88,7 +88,7 @@
           aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand active fs-4" href="./index.html">HOME</a>
+        <a class="navbar-brand  fs-4" href="./index.html">HOME</a>
         <section class="collapse navbar-collapse " id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto sm-1 sm-lg-0">
             <li class="nav-item ">
@@ -103,6 +103,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5" href="#Contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 rotateScale" href="#Contacto">info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 rotateScale" href="./registro.html">Registro</a>
           </li>
           </ul>
           <form class="d-flex" role="search">
@@ -124,56 +130,57 @@
     </article>
   </section>
   <!-- Separador -->
-  <!-- Imagen de section carrusel flayer-->
-  <section data-aos="fade-up" class="container">
-
-    <section id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
-      <section class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1">
-        </button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
-        </button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
-        </button>
-      </section>
-      <section class="carousel-inner">
-        <section class="carousel-item active">
-          <img src="./img/IMG_20210310_160259-01.jpg" class="d-block w-100 " alt="img1">
-          <section class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </section>
-        </section>
-        <section class="carousel-item">
-          <img src="./img/IMG_20210310_160259-00.jpg" class="d-block w-100" alt="img0">
-          <section class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </section>
-        </section>
-        <section class="carousel-item">
-          <img src="./img/IMG_20210310_160259-02.jpg" class="d-block w-100" alt="img2">
-          <section class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </section>
-        </section>
-      </section>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  <!-- REGISTRO-->
+  <section data-aos="fade-up" class="container tipoTex">
+    <section>
+      <h2 id="registo tipografiaT ">REGISTRO</h2>
     </section>
+    <form class="row g-3">
+      <section class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </section>
+      <section class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </section>
+      <section class="col-12">
+        <label for="inputAddress" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </section>
+ 
+      <section class="col-md-6">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="inputCity">
+      </section>
+      <section class="col-md-4">
+        <label for="inputState" class="form-label">Prov</label>
+        <select id="inputState" class="form-select">
+          <option selected>Seleccionar...</option>
+          <option>Argentina</option>
+          <option>Manija-ja-ja</option>
+        </select>
+      </section>
+      <section class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </section>
+      <section class="col-12">
+        <section class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+           <p>Validar</p> 
+          </label>
+        </section>
+      </section>
+      <section class="col-12">
+        <button type="submit" class="btn textC1 btn-dark">Sign in</button>
+      </section>
+    </form>
+    
 
   </section>
-  <!-- Imagen de section carrusel flayer-->
+  <!-- REGISTRO-->
   <!-- Separador entre carrusel y tarj -->
   <section data-aos="flip-up" class="mt-2">
 
@@ -371,7 +378,7 @@
             <!-- Links -->
             <h5 class="text-uppercase">Información</h5>
             <ul class="list-unstyled">
-              <li> <a href="#!">Producción </div></a></li>
+              <li> <a href="#!">Producción </a></li>
               <li> <a href="#!">Donde comprar</a> </li>
               <li> <a href="#!">Calidad</a> </li>
               <li> <a href="#!">Medio ambiente</a> </li>
@@ -382,7 +389,7 @@
             <!-- Links -->
             <h5 class="text-uppercase">Contacto</h5>
             <ul class="list-unstyled">
-              <li> <a href="./contactoDesdeLaWeb.html">Contacto desde la web</a> </li>
+              <li> <a  href="./contactoDesdeLaWeb.html">Contacto desde la web</a> </li>
               <li> <a href="#!">Ubicación</a> </li>
               <li> <a href="#!">Socios</a> </li>
               <li> <a href="#!">341-5403540</a></li>
@@ -398,9 +405,9 @@
       <!-- Footer Links -->
 
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <section class="footer-copyright text-center py-3">© 2022 Copyright:
         <a href="/"> <span>Jeronimo Costa</span>- Desarrollador web </a>
-      </div>
+      </section>
       <!-- Copyright -->
 
     </footer>

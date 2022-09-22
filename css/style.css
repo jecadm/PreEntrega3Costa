@@ -24,6 +24,9 @@ a {
 }
 
 
+.tipoTex{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Tamaño para el Menu */
 
@@ -99,8 +102,8 @@ a {
 
 /* Colores generales */
 .cuadradito {
-    width: 5px;
-    height: 5px;
+    width: 25px;
+    height: 25px;
     background-color: black;
 }
 
@@ -111,8 +114,15 @@ a {
     width: 300px;
     background: lightslategray transparent 50%;
 }
-
-.rotateMenu {
-    transform: rotate3d(15deg);
+/* animacion rotar */
+.rotateMenu:hover {
+    transform: rotate(45deg) ;
     cursor: pointer;
+    transition: all 1s;
+}
+ /* animacion para el menu */
+.rotateScale:hover {
+    transform: scale(1.5) ;
+    cursor: pointer;
+    transition: all 1s;
 }
