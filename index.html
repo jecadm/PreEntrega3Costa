@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head >
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Boostrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- AOS para animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- importado de fuente desde google -->
-     <!-- importado de fuente desde google -->
-  <link rel="stylesheet" href="./css/style.css">
+    <!-- importado de fuente desde google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet"> 
+    <!-- eligth -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet"> 
+    
+    <!-- med -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+
+    
   <title>PreEntrega2Costa-ETNIAS</title>
-  <!-- Boostrap5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <!-- AOS para animaciones -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body >
+<body class="fondoG">
   <!-- Cabesera logo , login y boton carrito -->
-  <header>
-    <section class="">
-      <section class="navbar bg-light sec-nav-logo border-bottom">
-        <section class="container-fluid">
+  <header class="fondoG">
+    <section>
+      <section class="navbar bg-light sec-nav-logo border-bottom ">
+        <section class="container-fluid fondoG">
           <section class="">
-          <a class="navbar-brand  " href="#">
+          <a class="navbar-brand col-xl col-md " href="#">
             <img src="./img/LOGOS/Circular fondo negro-logo maiz.png" alt="Logo"  width="100" height="100" class="d-inline-block align-text-top card-img-top  ">
                         </a>
              </section>
-          <section>
+          <section class=" col-auto ">
             <h1 class="tipografiaT ">ETNIAS</h1>
           </section>
 
           <!-- seccion derecha  - login y carrito -->
-          <section class="btn-group sec-nav-login offset-6">
-            <button type="button" class="btn btn-warning">
-              ACCESO
+          <section class="btn-group sec-nav-login  offset-md-8  col p-1 mt-4 ">
+            <button type="button" class="btn btn-dark textC1 ">
+              ACCESO 
             </button>
 
-            <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split"
+            <button type="button" class="btn textC1 btn-dark  dropdown-toggle dropdown-toggle-split"
               data-bs-toggle="dropdown" aria-expanded="false">
-              <span class="visually-hidden"></span>
+              <span class="visually-hidden "></span>
             </button>
 
-            <ul class="dropdown-menu mr-4 ">
+            <ul class="dropdown-menu mr-4 textC1 ">
               <li><a class="dropdown-item" href="#">LOGIN</a></li>
               <li><a class="dropdown-item" href="#">Recuperar mi contraseña</a></li>
               <li><a class="dropdown-item" href="#">Registrarme</a></li>
@@ -53,7 +67,7 @@
               <li><a class="dropdown-item" href="#">Ayuda link</a></li>
             </ul>
           </section>
-          <button type="button" class="btn btn-warning "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+          <button type="button" class="btn  btn-dark textC1 mt-4 col"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
               fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
               <path fill-rule="evenodd"
                 d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5Zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0ZM14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
@@ -69,16 +83,16 @@
   <!-- Barra de navegacion con buscador -->
   <section data-aos="zoom-in">
     <nav class="navbar navbar-expand-lg bg-light ">
-      <section class="container-fluid">
+      <section class="container-fluid fondoG">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
           aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand fs-4" href="./index.html">HOME</a>
+        <a class="navbar-brand active fs-4" href="./index.html">HOME</a>
         <section class="collapse navbar-collapse " id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto sm-1 sm-lg-0">
             <li class="nav-item ">
-              <a class="nav-link active fs-5 " aria-current="page" href="./deco.html">Deco</a>
+              <a class="nav-link fs-5 " aria-current="page" href="./deco.html">Deco</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fs-5" href="./aromas.html">Aromas</a>
@@ -86,6 +100,10 @@
             <li class="nav-item">
               <a class="nav-link fs-5" href="./velas.html">Velas</a>
             </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5" href="#Contacto">Contacto</a>
+          </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -98,9 +116,9 @@
   <!-- Barra de navegacion con buscador -->
 
   <!-- Separador -->
-  <section data-aos="zoom-in">
+  <section data-aos="zoom-in ">
     <hr>
-    <hr class="border border-secondary bg-gradient border-2 opacity-50">
+    <hr class="border border-secondary bg-gradient border-2 opacity-50 ">
     <article class="text-success">
       <hr>
     </article>
@@ -160,10 +178,10 @@
   <section data-aos="flip-up" class="mt-2">
 
     <section class="card text-center">
-      <article class="card-header">
+      <article class="card-header  ">
         Featured
       </article>
-      <section class="card-body">
+      <section class="card-body fondoG">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -175,11 +193,11 @@
   </section>
   <!-- Separador entre carrusel y tarj -->
   <!-- tarjetas con imagenes de productos 4 -->
-  <section>
-    <section class="container">
-      <section class="row align-items-start p-4 ">
+  <section >
+    <section class="container ">
+      <section class="row justify-content-center row-cols-4 mt-2 ">
         <!-- Tajeta 1  -->
-        <article data-aos="fade-right" class="card col-md-auto " style="width: 18rem;">
+        <article data-aos="fade-right" class="card col " style="width: 18rem;">
           <img src="./img/IMG_20210310_160259-00.jpg" class="card-img-top mt-2" alt="img00">
           <section class="card-body">
             <h5 class="card-title">Tetéra</h5>
@@ -197,7 +215,7 @@
           </section>
         </article>
         <!-- Tajeta 2 -->
-        <article data-aos="flip-left" class="card col-md-auto " style="width: 18rem;">
+        <article data-aos="flip-left" class="card col " style="width: 18rem;">
           <img src="./img/IMG_20210310_160259-01.jpg" class="card-img-top mt-2" alt="img01">
           <section class="card-body">
             <h5 class="card-title">Bould T1</h5>
@@ -215,7 +233,7 @@
           </section>
         </article>
         <!-- tarjeta 3 -->
-        <article data-aos="flip-right" class="card col-md-auto  " style="width: 18rem;">
+        <article data-aos="flip-right" class="card col " style="width: 18rem;">
           <img src="./img/IMG_20210310_160259-02.jpg" class="card-img-top mt-2" alt=".img02">
           <section class="card-body">
             <h5 class="card-title">Bould T2</h5>
@@ -233,7 +251,7 @@
           </section>
         </article>
         <!-- Tarjeta 4 -->
-        <article data-aos="fade-left" class="card col-md-auto " style="width: 18rem;">
+        <article data-aos="fade-left" class="card col " style="width: 18rem;">
           <img src="./img/IMG_20210310_160259-03.jpg" class="card-img-top mt-2" alt="img03">
           <section class="card-body">
             <h5 class="card-title">Bould T2</h5>
@@ -265,14 +283,15 @@
 
     <!-- Contenedro de medios de pago -->
     <section class="container text-center">
+      <p class="mpagoText ">Medios de Pago</p>
       <section class="container w-100 ">
         <section class="row   row-cols-lg-5 g-2 g-lg-3">
           <!-- pago 1 -->
-          <section class="col" data-aos="fade-right" data-aos-offset="100" data-aos-duration="900"
+          <section class="col " data-aos="fade-right" data-aos-offset="100" data-aos-duration="900"
             data-aos-easing="ease-in-sine">
             <article class="p-3 border border border-secondary bg-gradient border-2 "> <a>
-              <img src="./img/LOGOS/Logo-sin-nombre.png" alt="Logo" width="30" height="24"
-                class="d-inline-block align-text-top">
+              <img cla src="./img/LOGOS/Logo-sin-nombre.png" alt="Logo" width="30" height="24"
+                class="d-inline-block align-text-top ">
             </a>
             </article>
           </section>
@@ -331,7 +350,7 @@
 
   <!-- Footer -->
   <section class="container">
-    <footer class="page-footer font-small blue pt-4">
+    <footer id="Contacto" class="page-footer font-small blue pt-4">
 
       <!-- Footer Links GRID SYSTEM -->
       <section class="container-fluid text-center text-md-left">
@@ -363,10 +382,12 @@
             <!-- Links -->
             <h5 class="text-uppercase">Contacto</h5>
             <ul class="list-unstyled">
-              <li> <a href="#!">Contacto</a> </li>
+              <li> <a href="#!">Contacto desde la web</a> </li>
               <li> <a href="#!">Ubicación</a> </li>
               <li> <a href="#!">Socios</a> </li>
+              <li> <a href="#!">341-5403540</a></li>
             </ul>
+
           </section>
           <!-- Grid column 2-->
 
@@ -394,7 +415,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- aos -->
   <!-- Se agrego el tiempo en app.js -->
-  <script src="./js/app.js"></script>
+  <script src="./js/script.js"></script>
   <!-- Se agrego el tiempo en app.js -->
 </body>
 
