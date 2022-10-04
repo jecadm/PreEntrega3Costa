@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@import 'vars.scss';
+
+
+
+p {
+    font-family: $ffamily;
+}
+
+a {
+    font-family: $ffamily;
+}
+
+.tipoTex{
+    font-family: $ffamily;
+}
+
+/* Tamaño para el Menu */
+
+.navbar-brand {
+    font: {
+    family: $ffamily;
+    size: 15px;
+}
+}
+
+
+
+
+/* Titulo header */
+.tipografiaT {
+    font: {
+    family: $ffamily;
+    size: 50px;
+
+}
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 0%;
+
+}
+
+/* botones color */
+
+.btcolorF {
+    background-color: $gbColor;
+}
+
+/* botones color */
+
+.tipografiaBO {
+    font-family: $ffamily;
+}
+
+/* Medios de pago */
+
+.mpagoText {
+
+    font: {
+        family: $ffamily;
+        size: 20px;
+
+    }
+    background-color: $gbColor;
+
+
+
+}
+/* Fuentes del sitio */
+
+/* Colores generales de fonde y texto */
+
+.textC1 {
+    color: $gbColor;
+}
+
+
+
+.fondoG {
+    background-color: $bgColor1 ;
+}
+
+.fondoG1 {
+    background-color: $bgColor2;
+}
+
+.fondoG2 {
+    background-color: $bgColor3;
+}
+
+.fondoG3 {
+    background-color: $bgColor4;
+    
+}
+
+.fondoG4 {
+    background-color: $gbColor;
+}
+
+
+
+/* Colores generales */
+.cuadradito {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}
+
+/* animatciones */
+
+/* Transicion del menu con hover */
+.transMenu {
+
+    transition: width 1s;
+    width: 300px;
+    background: lightslategray transparent 50%;
+}
+
+/* animacion rotar  del logo*/
+.rotateMenu:hover {
+    transform: rotate(45deg) ;
+    cursor: pointer;
+    transition: all 1s;
+}
+ /* animacion para el menu */
+.rotateScale:hover {
+    transform: scale(1.5) ;
+    cursor: pointer;
+    transition: all 1s;
+}

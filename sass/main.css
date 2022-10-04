@@ -1,0 +1,108 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* var Colores */
+/* var text */
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.tipoTex {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Tamaño para el Menu */
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+/* Titulo header */
+.tipografiaT {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  text-align: left;
+  margin-top: 15%;
+  margin-left: 0%;
+}
+
+/* botones color */
+.btcolorF {
+  background-color: rgb(217, 187, 98);
+}
+
+/* botones color */
+.tipografiaBO {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Medios de pago */
+.mpagoText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: rgb(217, 187, 98);
+}
+
+/* Fuentes del sitio */
+/* Colores generales de fonde y texto */
+.textC1 {
+  color: rgb(217, 187, 98);
+}
+
+.fondoG {
+  background-color: rgb(242, 237, 228);
+}
+
+.fondoG1 {
+  background-color: rgb(217, 210, 197);
+}
+
+.fondoG2 {
+  background-color: rgb(166, 154, 133);
+}
+
+.fondoG3 {
+  background-color: rgb(89, 82, 69);
+}
+
+.fondoG4 {
+  background-color: rgb(217, 187, 98);
+}
+
+/* Colores generales */
+.cuadradito {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+
+/* animatciones */
+/* Transicion del menu con hover */
+.transMenu {
+  transition: width 1s;
+  width: 300px;
+  background: lightslategray transparent 50%;
+}
+
+/* animacion rotar  del logo*/
+.rotateMenu:hover {
+  transform: rotate(45deg);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+/* animacion para el menu */
+.rotateScale:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: all 1s;
+}/*# sourceMappingURL=main.css.map */
