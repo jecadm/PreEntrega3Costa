@@ -41,3 +41,29 @@ Tercera pre-entrega de tu proyecto final
 
 
 ## Se debe entregar
+  Estilo avanzado: Transforma lo que originalmente eran estilos de CSS en SCSS. Utilizar las características de SCSS para       armar estilos de CSS de forma dinámica, además del uso de nesting para estructurarlo de forma legible y evitando repetir     código.
+
+​
+
+  Estructura de la web: Usa etiquetas no solo para armar contenido, sino para armar los elementos que van a conformar el       layout de la web, los contenedores, etc.
+
+## Técnicas SEO
+
+### Consigna
+
+  Implementar técnicas de SEO como meta tags description, keywords, favicon, completar los “alt” de las imágenes y             utilización de las etiquetas semánticas.
+
+## Repositorio en GitHub 
+
+Formato: link al repositorio en GitHub donde está hosteado el proyecto. 
+
+### Consigna
+
+Utilizar Git de forma correcta para versionar el proyecto. Hacer uso de GitHub para brindar acceso al proyecto versionado.
+
+### Se debe entregar
+
+Enviar al repositorio todos los archivos necesarios para visualizar correctamente la web.
+
+En el repositorio se muestran los commit realizados para actualizar/versionar el código.
+
