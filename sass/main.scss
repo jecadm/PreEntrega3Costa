@@ -10,6 +10,23 @@
 @import 'footer.scss';
 @import 'anima.scss';
 
+
+/* Fondos  por for in */
+@each $bgg in $gbColor, $bgColor1, $bgColor2,  $bgColor3, $bgColor4{
+    .g-#{$bgg}{
+        background-color: $bgg;
+
+    }
+}
+
+@mixin btones {
+    display: inline-block;
+    padding: 20px 25px;
+    background-color: $bgColor2;
+    
+}
+
+
 p {
     font-family: $ffamily;
 }
@@ -26,6 +43,7 @@ a {
 /* botones color */
 
 .btcolorF {
+    @include btones;
     background-color: $gbColor;
 }
 
