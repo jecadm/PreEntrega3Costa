@@ -1,0 +1,32 @@
+@import 'vars.scss';
+
+
+/* Tamaño para el Menu */
+
+.navbar-brand {
+    font: {
+    family: $ffamily;
+    size: 15px;
+}
+}
+
+
+/* Titulo header */
+.tipografiaT {
+    font: {
+    family: $ffamily;
+    size: 50px;
+
+}
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 0%;
+
+}
+/*  <!-- Separador entre carrusel y tarj --> */
+.txh1{
+    font: {
+        size: 15px
+
+    };
+}

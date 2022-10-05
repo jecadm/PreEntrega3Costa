@@ -1,0 +1,22 @@
+/* animatciones */
+
+/* Transicion del menu con hover */
+.transMenu {
+
+    transition: width 1s;
+    width: 300px;
+    background: lightslategray transparent 50%;
+}
+
+/* animacion rotar  del logo*/
+.rotateMenu:hover {
+    transform: rotate(45deg) ;
+    cursor: pointer;
+    transition: all 1s;
+}
+ /* animacion para el menu */
+.rotateScale:hover {
+    transform: scale(1.5) ;
+    cursor: pointer;
+    transition: all 1s;
+}

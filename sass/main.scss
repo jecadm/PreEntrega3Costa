@@ -6,8 +6,9 @@
 }
 
 @import 'vars.scss';
-
-
+@import 'header.scss';
+@import 'footer.scss';
+@import 'anima.scss';
 
 p {
     font-family: $ffamily;
@@ -21,30 +22,6 @@ a {
     font-family: $ffamily;
 }
 
-/* Tamaño para el Menu */
-
-.navbar-brand {
-    font: {
-    family: $ffamily;
-    size: 15px;
-}
-}
-
-
-
-
-/* Titulo header */
-.tipografiaT {
-    font: {
-    family: $ffamily;
-    size: 50px;
-
-}
-    text-align: left;
-    margin-top: 15%;
-    margin-left: 0%;
-
-}
 
 /* botones color */
 
@@ -110,27 +87,4 @@ a {
     width: 25px;
     height: 25px;
     background-color: black;
-}
-
-/* animatciones */
-
-/* Transicion del menu con hover */
-.transMenu {
-
-    transition: width 1s;
-    width: 300px;
-    background: lightslategray transparent 50%;
-}
-
-/* animacion rotar  del logo*/
-.rotateMenu:hover {
-    transform: rotate(45deg) ;
-    cursor: pointer;
-    transition: all 1s;
-}
- /* animacion para el menu */
-.rotateScale:hover {
-    transform: scale(1.5) ;
-    cursor: pointer;
-    transition: all 1s;
 }
