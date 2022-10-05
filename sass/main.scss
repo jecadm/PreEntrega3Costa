@@ -51,7 +51,7 @@ a {
 }
 /* Fuentes del sitio */
 
-/* Colores generales de fonde y texto */
+/* Colores generales de fondo y texto */
 
 .textC1 {
     color: $gbColor;
@@ -86,5 +86,7 @@ a {
 .cuadradito {
     width: 25px;
     height: 25px;
-    background-color: black;
+    background-color: $bgColor3;
 }
+
+
